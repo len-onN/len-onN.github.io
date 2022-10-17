@@ -26,3 +26,14 @@ strong{
     text-decoration: wavy;
     width: 300px;
 }
+#bloc{
+    width: 520px;
+    height: 350px;
+}
+#img{
+    float: left;
+}
+#des{
+    float: right;
+    width: 250px;
+}
