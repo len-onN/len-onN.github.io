@@ -26,12 +26,17 @@ strong{
     text-decoration: wavy;
     width: 300px;
 }
+#nome{
+    text-align: center;
+}
 #bloc{
-    width: 520px;
-    height: 350px;
+    width: 600px;
+    height: 410px;
 }
 #img{
     float: left;
+    background-color: azure;
+    padding: 30px;
 }
 #des{
     float: right;
