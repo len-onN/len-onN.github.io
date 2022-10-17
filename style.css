@@ -42,3 +42,18 @@ strong{
     float: right;
     width: 250px;
 }
+.impar{
+    margin: 10px;
+    padding: 5px;
+}
+ul{
+    list-style: none;
+}
+#sec{
+    margin:5px;
+    line-height: 0.8em;
+}
+.lid{
+    margin:6px;
+    padding:6px;
+}
