@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(221, 225, 247);
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h4{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+strong{
+    background-color: rgb(171, 222, 235);
+    color:blue;
+    font-style: oblique;
+}
+.tec{
+    width: 400px;
+    height: 28px;
+    font-size: 16px;
+    text-decoration: wavy;
+    background-color: rgb(145, 167, 199);
+}
+.mus{
+    background-color: rgb(129, 147, 167);
+    height: 23px;
+    font-size: 15px;
+    text-decoration: wavy;
+    width: 300px;
+}
