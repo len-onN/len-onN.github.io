@@ -58,4 +58,8 @@ ul{
 .lid{
     margin:6px;
     padding:6px;
+    display: inline;
+}
+#sec{
+    text-align: center;
 }
