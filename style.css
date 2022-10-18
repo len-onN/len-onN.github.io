@@ -24,25 +24,30 @@ strong{
     background-color: rgb(129, 147, 167);
     height: 23px;
     font-size: 15px;
-    text-decoration: wavy;
+    text-decoration: dotted;
     width: 300px;
 }
 #nome{
     text-align: center;
 }
 #bloc{
-    width: 600px;
+    width: 80%;
     height: 410px;
     background-color: rgb(rgb(146, 24, 24), rgb(163, 228, 163), rgb(163, 163, 241));
 }
 #img{
-    float: left;
+    position: absolute;
+    left: 200px;    
     background-color: azure;
     padding: 30px;
+    display: inline-block;
 }
 #des{
+    position: relative;
+    top: 100px;
     float: right;
-    width: 250px;
+    width: 40%;
+    z-index: 2;
 }
 .impar{
     margin: 10px;
@@ -64,6 +69,11 @@ ul{
     text-align: center;
 }
 #secoes{
-    margin: 30px 10px;
     width: 30%;
+    border-bottom: 1px solid black;
+}
+#habd{
+    width: 30%;
+    text-align:center;
+    border-bottom: 1px solid black;
 }
