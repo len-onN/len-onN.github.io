@@ -33,6 +33,7 @@ strong{
 #bloc{
     width: 600px;
     height: 410px;
+    background-color: rgb(rgb(146, 24, 24), rgb(163, 228, 163), rgb(163, 163, 241));
 }
 #img{
     float: left;
