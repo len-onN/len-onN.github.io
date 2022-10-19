@@ -22,21 +22,24 @@ strong{
 }
 .mus{
     background-color: rgb(129, 147, 167);
-    height: 23px;
-    font-size: 15px;
-    text-decoration: dotted;
-    width: 300px;
+    height: 28px;
+    font-size: 16px;
+    text-decoration: wavy;
+    width: 400px;
 }
+/*Header*/
 #nome{
     text-align: center;
 }
+/*fim Header */
 #bloc{
-    width: 80%;
+    width: 90%;
     height: 410px;
     background-color: rgb(rgb(146, 24, 24), rgb(163, 228, 163), rgb(163, 163, 241));
 }
-#img{
-    position: absolute;
+#foto{
+    position: relative;
+    height: 350px;
     left: 200px;    
     background-color: azure;
     padding: 30px;
@@ -46,7 +49,7 @@ strong{
     position: relative;
     top: 100px;
     float: right;
-    width: 40%;
+    width: 45%;
     z-index: 2;
 }
 .impar{
@@ -73,8 +76,16 @@ ul{
     border-bottom: 1px solid black;
 }
 #habd{
-    width: 30%;
+    width: 100%;
     text-align:center;
     border-bottom: 1px solid black;
     left: 200px;
+}
+#habd h4{
+    position: relative;
+    text-align: center;
+}
+#hab {
+    position: relative;
+    left: 400px;
 }
