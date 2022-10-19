@@ -14,7 +14,7 @@ strong{
     font-weight: 650;
 }
 .tec{
-    width: 400px;
+    text-align: center;
     height: 28px;
     font-size: 16px;
     text-decoration: wavy;
@@ -25,7 +25,8 @@ strong{
     height: 28px;
     font-size: 16px;
     text-decoration: wavy;
-    width: 400px;
+    text-align:center;
+    
 }
 /*Header*/
 #nome{
@@ -49,7 +50,7 @@ strong{
 #des{
     position: relative;
     display: inline-block;
-    width: 35%;
+    width: 45%;
     left: 40%;
 }
 .impar{
@@ -82,14 +83,13 @@ ul{
 }
 #habd{
     width: 100%;
-    text-align:center;
+    
     border-bottom: 1px solid black;
 }
-#habd h4{
+#habd h2{
     position: relative;
     text-align: center;
 }
 #hab {
     position: relative;
-    left: 30%;
 }
