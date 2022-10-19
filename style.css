@@ -79,7 +79,7 @@ ul{
 }
 #secoes ul{
     position: relative;
-    left: 35%;
+    text-align: center;
 }
 #habd{
     width: 100%;
@@ -92,4 +92,7 @@ ul{
 }
 #hab {
     position: relative;
+}
+#indica {
+    text-align: center;
 }
