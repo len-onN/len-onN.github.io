@@ -65,7 +65,7 @@ ul{
     padding:6px;
     display: inline;
 }
-#sec{
+#secoes h4{
     text-align: center;
 }
 #secoes{
@@ -76,4 +76,5 @@ ul{
     width: 30%;
     text-align:center;
     border-bottom: 1px solid black;
+    left: 200px;
 }
