@@ -16,14 +16,16 @@ strong{
 .tec{
     text-align: center;
     height: 28px;
-    font-size: 16px;
+    font-size: 17px;
+    font-weight: 400;
     text-decoration: wavy;
     background-color: rgb(145, 167, 199);
 }
 .mus{
     background-color: rgb(129, 147, 167);
     height: 28px;
-    font-size: 16px;
+    font-size: 17px;
+    font-weight: 400;
     text-decoration: wavy;
     text-align:center;
     
@@ -34,8 +36,7 @@ strong{
 }
 /*fim Header */
 #bloc{
-    width: 90%;
-    height: 410px;
+    height: 270px;
     background-color: rgb(rgb(146, 24, 24), rgb(163, 228, 163), rgb(163, 163, 241));
 }
 #foto{
@@ -45,13 +46,15 @@ strong{
     padding: 30px;
     display: inline;
     float: left;
-    left: 10%;
+    left: 28%;
 }
 #des{
     position: relative;
     display: inline-block;
     width: 45%;
     left: 40%;
+    text-align:center;
+    line-height: 1.8em;
 }
 .impar{
     margin: 10px;
