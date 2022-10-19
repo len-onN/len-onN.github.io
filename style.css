@@ -4,7 +4,7 @@ body{
 h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-h4{
+h4, p{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 strong{
@@ -39,18 +39,18 @@ strong{
 }
 #foto{
     position: relative;
-    height: 350px;
-    left: 200px;    
+    height: 200px;    
     background-color: azure;
     padding: 30px;
-    display: inline-block;
+    display: inline;
+    float: left;
+    left: 10%;
 }
 #des{
     position: relative;
-    top: 100px;
-    float: right;
-    width: 45%;
-    z-index: 2;
+    display: inline-block;
+    width: 35%;
+    left: 40%;
 }
 .impar{
     margin: 10px;
@@ -68,18 +68,22 @@ ul{
     padding:6px;
     display: inline;
 }
-#secoes h4{
+#secoes h2{
+    position: relative;
+    left: 0%;
     text-align: center;
 }
 #secoes{
-    width: 30%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px  solid black;
+}
+#secoes ul{
+    position: relative;
+    left: 35%;
 }
 #habd{
     width: 100%;
     text-align:center;
     border-bottom: 1px solid black;
-    left: 200px;
 }
 #habd h4{
     position: relative;
@@ -87,5 +91,5 @@ ul{
 }
 #hab {
     position: relative;
-    left: 400px;
+    left: 30%;
 }
